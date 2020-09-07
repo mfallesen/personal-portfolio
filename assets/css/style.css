@@ -1,15 +1,20 @@
 /* Default Body and Content Styling */
 form {
     padding: 20px 20px 20px 20px;
-    background: gainsboro;
 }
 
 body {
     background-image: url("../images/portfolio-background.png")
 }
 
+#profilePicture {
+    padding-right:20px;
+    
+}
+
 .page-main-content {
     margin-top: 75px;
+    background: gainsboro;
 }
 
 /* Navigation and Button Styling */
@@ -23,18 +28,21 @@ body {
     background-color: #8fb180;
 }
 
-
-
-
-
-
-
-
-
 /* Media Query for Screensize of 576pixels or less */
 @media only screen and (max-width: 576px) {
     .form-group {
         margin-right: 10px;
+    }
+
+    .page-main-content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+/* Media Query for screensize between 576 and 768 pixels */
+@media only screen and (min-width: 576px) {
+    .container-shift-left {
+        margin-left: 50px;
     }
 }
 
