@@ -6,7 +6,7 @@ The About me page contains a placeholder image along with text.
 ![About Me page image](/assets/images/about-me.png)
 
 The Portfolio page contains five placeholder images with no placeholder text. 
-![Portfolio page image](/assets/image/portfolio-page.png)
+![Portfolio page image](/assets/images/portfolio-page.png)
 
 The Contact page contains a form element along with a submission button (inactive). 
 ![COntact Page image](/assets/images/contact-page.png)
