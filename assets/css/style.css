@@ -42,11 +42,17 @@ body {
         padding-left: 50px;
         padding-right: 50px;
     }
+    .container-bp {
+        max-width: 500px;
+    }
 }
 /* Media Query for screensize between 576 and 768 pixels */
 @media only screen and (min-width: 576px) {
     .container-shift-left {
         margin-left: 50px;
+    }
+    .container-bp {
+        max-width: 500px;
     }
 }
 
@@ -58,11 +64,17 @@ body {
     .form-group {
         margin-right: 150px;
     }
+    .container-bp {
+        max-width: 500px;
+    }
 }
 /* Media Query for Screensize of 992 pixels or greater */
 @media only screen and (min-width: 992px) {
     
     .container-shift-left {
         margin-left: 50px;
+    }
+    .container-bp {
+        max-width: 870px;
     }
 }
